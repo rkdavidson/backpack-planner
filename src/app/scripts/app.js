@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name jmtFoodPlannerApp
+ * @name backpackPlannerApp
  * @description
- * # jmtFoodPlannerApp
+ * # backpackPlannerApp
  *
  * Main module of the application.
  */
 angular
-  .module('jmtFoodPlannerApp', [
+  .module('backpackPlannerApp', [
     'ngGrid',
     'nvd3ChartDirectives'
     ]);

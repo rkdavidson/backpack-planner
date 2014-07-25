@@ -61,6 +61,10 @@ body {
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
+  .container {
+    width: 1100;
+  }
+
   /* Remove the padding we set earlier */
   .header,
   .marketing,
@@ -78,53 +82,104 @@ body {
   }
 }
 
-.foodGridStyle {
-  border: 1px solid rgb(212,212,212);
-  height: 480px;
-  width: 100%;
-  font-size: .85em;
-}
-
-/* ============================================== */
-
-.foodMetricsList {
-  background: #555;
-  border: 4px #332809 solid;
-  color: #FFF;
-}
-
-.foodTitleRow {
-
-}
-
-.foodMetricsList .row {
-  border-bottom: 1px #000 solid;
-}
-
-.foodMetricValue {
-  text-align: right;
-  font-weight: bold;
-  font-size: 1.5em;
-}
-
-.foodMetricName {
-  letter-spacing: 1px;
-  line-height: 2.2em;
-}
-
-.foodMetricSubValue {
-  text-align: right;
-  line-height: 2.2em;
-}
 
 .unitText {
   font-size: .7em;
 }
 
-.foodMetricRatios {
+.foodGrid {
+  height: 512px;
+  font-size: .85em;
+}
+
+.foodGrid .brandCell,
+.foodGrid .descriptionCell { font-size: 1em; }
+
+.foodGrid .descriptionCell { font-weight: bold; }
+
+.foodGrid .caloriesCell,
+.foodGrid .proteinCell,
+.foodGrid .carbsCell,
+.foodGrid .fatCell { font-size: 1.1em; text-align: center; font-weight: bold; }
+
+.foodGrid .percentCell { font-style: oblique; font-size: 1em; font-weight: normal; color: #555; text-align: left; background: rgba(0, 0, 0, .04); }
+.foodGrid .unitText { font-weight: bold; color: #456; padding-left: 2px; font-size: .65em; }
+
+.foodGrid .caloriesCell { text-align: center; }
+.foodGrid .proteinCell { border-bottom: 1px solid rgb(255, 64, 0); color: rgb(32, 8, 0); }
+.foodGrid .carbsCell { border-bottom: 1px solid rgb(170, 214, 0); color: rgb(8, 32, 0); }
+.foodGrid .fatCell { border-bottom: 1px solid rgb(50, 170, 255); color: rgb(0, 14, 32); }
+
+.foodGrid .caloriesCell,
+.foodGrid .fatCell { border-right: 3px #CCC solid; }
+
+.ngViewport {
+    /*height:auto !important;*/
+}
+.ngCanvas, .ngViewport, .ngRow, .ngFooterPanel, .ngTopPanel   {
+   width: 100% !important;
+}
+.ngRow {
+   border-bottom:none !important;
+}
+
+.pieChart .title {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: .8em;
+  letter-spacing: 1px;
+  padding: 0;
+  margin: 0;
+}
+
+/* ============================================== */
+
+.nutritionLabel {
+  background: #444;
+  margin-bottom: 1em;
+  border: 4px #332809 solid;
+  color: #FFF;
+}
+
+.nutritionLabel .row {
+  border-bottom: 1px #000 solid;
+}
+
+.nutritionLabelTitle {
+  border-bottom: 0px !important;
+}
+
+.nutritionLabelMetricValue {
+  text-align: right;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.nutritionLabelServings .nutritionLabelMetricName {
+  font-size: .8em;
+  padding-bottom: 1.5em;
+}
+
+.nutritionLabelMetricName {
+  letter-spacing: 1px; padding: .5em 1em;
+}
+
+.nutritionLabelSubMetricValue {
+  text-align: right;
+  line-height: 2.2em;
+}
+
+.nutritionLabelRatiosLarge {
   text-align: center;
   font-size: 2em;
 }
+
+.nutritionLabel .protein { color: #FF5100;  }
+.nutritionLabel .carbs { color: #AAD600; }
+.nutritionLabel .fat { color: #33AAFF; }
+
+
 
 
 

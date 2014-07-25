@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
   </head>
-  <body ng-app="jmtFoodPlannerApp">
+  <body ng-app="backpackPlannerApp">
 
     <div class="container">
       <div ng-include="'views/main.html'" ng-controller="MainCtrl"></div>
@@ -43,6 +43,8 @@
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/factories/foods.factory.js"></script>
+        <script src="scripts/directives/nutritionLabel.directive.js"></script>
         <!-- endbuild -->
 </body>
 </html>

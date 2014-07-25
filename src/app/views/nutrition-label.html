@@ -1,0 +1,52 @@
+
+<div class="col-md-4 nutritionLabel">
+  <div class="row nutritionLabelTitle">
+    <div class="col-md-12">
+      <h3>{{food.description || "&mdash;"}}<br /><em>{{food.brand || "&mdash;"}}</em></h3>
+    </div>
+  </div>
+  <div class="row nutritionLabelServings">
+    <div class="col-md-1 nutritionLabelMetricName">Serving Size</div>
+    <div class="col-md-7 nutritionLabelMetricValue">{{food.size}}</div>
+    <div class="col-md-4 nutritionLabelMetricValue">{{food.ounces}} <span class="unitText">oz</span></div>
+  </div>
+
+  <!-- Calories -->
+  <div class="row">
+    <div class="col-md-9 nutritionLabelMetricName">Calories</div>
+    <div class="col-md-3 nutritionLabelMetricValue">{{food.calories}}</div>
+  </div>
+  <div class="row">
+    <div class="col-md-8 nutritionLabelMetricName">Calories/Cup (Volume)</div>
+    <div class="col-md-4 nutritionLabelMetricValue">{{food.calsPerCup}} <span class="unitText">/cup</span></div>
+  </div>
+  <div class="row">
+    <div class="col-md-8 nutritionLabelMetricName">Calories/Ounce (Weight)</div>
+    <div class="col-md-4 nutritionLabelMetricValue">{{food.calsPerOunce}} <span class="unitText">/oz</span></div>
+  </div>
+
+  <!-- Macronutrients -->
+  <div class="row nutritionLabelRatiosLarge">
+    <div class="col-md-12">
+      <span class="protein">{{food.analysis.percentProtein}}</span> - <span class="carbs">{{food.analysis.percentCarbs}}</span> - <span class="fat">{{food.analysis.percentFat}}</span>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3 nutritionLabelMetricName">Protein</div>
+    <div class="col-md-3 nutritionLabelSubMetricValue">{{food.analysis.calsFromProtein}} <span class="unitText protein">cals</span></div>
+    <div class="col-md-3 nutritionLabelSubMetricValue">{{food.analysis.percentProtein}}<span class="unitText protein">%</span></div>
+    <div class="col-md-3 nutritionLabelMetricValue">{{food.protein}}<span class="unitText protein">g</span></div>
+  </div>
+  <div class="row">
+    <div class="col-md-3 nutritionLabelMetricName">Carbs</div>
+    <div class="col-md-3 nutritionLabelSubMetricValue">{{food.analysis.calsFromCarbs}} <span class="unitText carbs">cals</span></div>
+    <div class="col-md-3 nutritionLabelSubMetricValue">{{food.analysis.percentCarbs}}<span class="unitText carbs">%</span></div>
+    <div class="col-md-3 nutritionLabelMetricValue">{{food.carbs}}<span class="unitText carbs">g</span></div>
+  </div>
+  <div class="row">
+    <div class="col-md-3 nutritionLabelMetricName">Fat</div>
+    <div class="col-md-3 nutritionLabelSubMetricValue">{{food.analysis.calsFromFat}} <span class="unitText fat">cals</span></div>
+    <div class="col-md-3 nutritionLabelSubMetricValue">{{food.analysis.percentFat}}<span class="unitText fat">%</span></div>
+    <div class="col-md-3 nutritionLabelMetricValue">{{food.fat}}<span class="unitText fat">g</span></div>
+  </div>
+</div>
