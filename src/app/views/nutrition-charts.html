@@ -1,0 +1,29 @@
+<div class="row">
+    <nvd3-pie-chart
+        data="food.charts.macronutrientPieData"
+        x="xFunctionPie()"
+        y="yFunctionPie()"
+        showLabels="true"
+        donut="true"
+        donutRatio=".24"
+        color="macronutrientColorFunction()"
+        noData="Rollover a food item to see macronutrient breakdown"
+        margin="{left:0,top:0,bottom:0,right:0}"
+        class="pieChart col-md-6">
+        <p class="title">Macronutrients</p>
+        <svg></svg>
+    </nvd3-pie-chart>
+    <nvd3-pie-chart
+        data="food.charts.caloriesMassPieData"
+        x="xFunctionPie()"
+        y="yFunctionPie()"
+        showLabels="true"
+        donut="true"
+        donutRatio=".24"
+        noData="Rollover a food item to see macronutrient breakdown"
+        margin="{left:0,top:0,bottom:0,right:0}"
+        class="pieChart col-md-6">
+        <p class="title">Calories Source</p>
+        <svg></svg>
+    </nvd3-pie-chart>
+  </div>

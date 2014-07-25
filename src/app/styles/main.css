@@ -1,8 +1,8 @@
 /* Space out content a bit */
 body {
-  padding-top: 20px;
+  padding-top: 8px;
   padding-bottom: 20px;
-  background: #BBB;
+  background: #DDD;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -15,14 +15,14 @@ body {
 
 /* Custom page header */
 .header {
-  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 0 !important;
 }
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
   margin-top: 0;
   margin-bottom: 0;
-  line-height: 40px;
-  padding-bottom: 19px;
+  padding-bottom: 10px;
+  line-height: 32px;
 }
 
 /* Custom page footer */
@@ -62,7 +62,7 @@ body {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
-    width: 1100;
+    width: 1200;
   }
 
   /* Remove the padding we set earlier */
@@ -90,6 +90,7 @@ body {
 .foodGrid {
   height: 512px;
   font-size: .85em;
+  margin-top: 0;
 }
 
 .foodGrid .brandCell,
@@ -111,7 +112,7 @@ body {
 .foodGrid .fatCell { border-bottom: 1px solid rgb(50, 170, 255); color: rgb(0, 14, 32); }
 
 .foodGrid .caloriesCell,
-.foodGrid .fatCell { border-right: 3px #CCC solid; }
+.foodGrid .fatCell.percentCell { border-right: 1px #888 solid; }
 
 .ngViewport {
     /*height:auto !important;*/
@@ -153,7 +154,7 @@ body {
 .nutritionLabelMetricValue {
   text-align: right;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.4em;
 }
 
 .nutritionLabelServings .nutritionLabelMetricName {
@@ -162,7 +163,9 @@ body {
 }
 
 .nutritionLabelMetricName {
-  letter-spacing: 1px; padding: .5em 1em;
+  font-size: .9em;
+  letter-spacing: 1px;
+  padding: .4em 1em;
 }
 
 .nutritionLabelSubMetricValue {

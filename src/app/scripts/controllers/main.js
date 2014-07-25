@@ -11,7 +11,18 @@ angular.module('backpackPlannerApp')
   .controller('MainCtrl', ['$scope', '$log', 'Foods', function ($scope, $log, Foods) {
     $scope.$log = $log;
 
-    $scope.foodGridOptions = {
+    $scope.selectedFoodItems = [];
+    $scope.selectedFoodRow = null;
+    $scope.selectedFood = null;
+    $scope.compareFoodRow = null;
+    $scope.compareFood = null;
+
+    $scope.mouseoverRow = function(row) {
+      $scope.compareFoodRow = row;
+      $scope.compareFood = row.entity;
+    }
+
+    $scope.foodGridConfig = {
       data: 'foodData',
       columnDefs: [
         { field: 'category', displayName: 'Category', width: 0, visible: false },
@@ -34,11 +45,18 @@ angular.module('backpackPlannerApp')
       rowHeight: 30,
       showFilter: true,
       enableHighlighting: true,
-      enableRowSelection: false,
+      enableRowSelection: true,
+      multiSelect: false,
+      keepLastSelected: true,
       enableColumnHeavyVirt: true,
       sortInfo: { fields: ['category', 'description'], directions: ['asc' || 'desc'] },
       groups: ['category'],
-      groupsCollapsedByDefault: false
+      groupsCollapsedByDefault: false,
+      afterSelectionChange: function(row, event) {
+        $scope.selectedFoodRow = row;
+        $scope.selectedFood = row.entity;
+        $log.log($scope.selectedFood);
+      }
     };
 
     Foods.then( function(parsedData) {
@@ -52,14 +70,6 @@ angular.module('backpackPlannerApp')
     });
 
     // -----------------------------------------
-
-    $scope.analyzedRow = null;
-    $scope.analyzedFood = null;
-
-    $scope.analyzeRow = function(row) {
-      $scope.analyzedRow = row;
-      $scope.analyzedFood = $scope.analyzedRow.entity;
-    }
 
     // Return an object summarizing the macronutrient breakdown of a given food item.
     // Returns percentages and raw quantities

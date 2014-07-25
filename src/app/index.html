@@ -20,6 +20,10 @@
   <body ng-app="backpackPlannerApp">
 
     <div class="container">
+      <div class="header">
+        <h3><span class="glyphicon glyphicon-tree-conifer"></span><span class="glyphicon glyphicon-home" style="color: #999"></span><span class="glyphicon glyphicon-tree-deciduous"></span> Backpack Planner</h3>
+      </div>
+
       <div ng-include="'views/main.html'" ng-controller="MainCtrl"></div>
 
     <!--[if lt IE 9]>
@@ -45,6 +49,7 @@
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/factories/foods.factory.js"></script>
         <script src="scripts/directives/nutritionLabel.directive.js"></script>
+        <script src="scripts/directives/nutritionCharts.directive.js"></script>
         <!-- endbuild -->
 </body>
 </html>
