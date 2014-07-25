@@ -1,9 +1,26 @@
 
 <div class="row">
-  <div class="jumbotron">
-
-  </div>
-
   <div class="gridStyle" ng-grid="gridOptions">
+  </div>
+</div>
+<div class="row">
+  <h4>Analyzing: <strong><em>{{analyzedRow.entity.brand}}</em> {{analyzedRow.entity.description}}</strong></h4>
+  <h5>{{analyzedRow.entity}}</h5>
+
+  <nvd3-pie-chart
+      data="macronutrientPieData"
+      id="macronutrientPieData"
+      height="400"
+      x="xFunctionPie()"
+      y="yFunctionPie()"
+      showLabels="true"
+      color="macronutrientColorFunction()"
+      noData="Rollover a food item to see macronutrient breakdown"
+      class="pieChart col-md-8">
+      <svg></svg>
+  </nvd3-pie-chart>
+
+  <div class="pieChart col-md-4">
+    Stats to go here
   </div>
 </div>
