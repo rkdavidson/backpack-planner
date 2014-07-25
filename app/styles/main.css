@@ -83,3 +83,56 @@ body {
   height: 480px;
   font-size: .9em;
 }
+
+/* ============================================== */
+
+.foodMetricsList {
+  background: #555;
+  border: 4px #332809 solid;
+  color: #FFF;
+}
+
+.foodTitleRow {
+
+}
+
+.foodMetricsList .row {
+  border-bottom: 1px #000 solid;
+}
+
+.foodMetricValue {
+  text-align: right;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.foodMetricName {
+  letter-spacing: 1px;
+  line-height: 2.2em;
+}
+
+.foodMetricSubValue {
+  text-align: right;
+  line-height: 2.2em;
+}
+
+.unitText {
+  font-size: .7em;
+}
+
+.foodMetricRatios {
+  text-align: center;
+  font-size: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -3,9 +3,9 @@
   <div class="gridStyle" ng-grid="gridOptions">
   </div>
 </div>
-<div class="row">
+
+<div class="row animate-show" ng-show="analyzedRow.entity">
   <h4>Analyzing: <strong><em>{{analyzedRow.entity.brand}}</em> {{analyzedRow.entity.description}}</strong></h4>
-  <h5>{{analyzedRow.entity}}</h5>
 
   <nvd3-pie-chart
       data="macronutrientPieData"
@@ -14,13 +14,41 @@
       x="xFunctionPie()"
       y="yFunctionPie()"
       showLabels="true"
+      donut="true"
+      donutRatio=".24"
       color="macronutrientColorFunction()"
       noData="Rollover a food item to see macronutrient breakdown"
-      class="pieChart col-md-8">
+      class="pieChart col-md-5">
       <svg></svg>
   </nvd3-pie-chart>
 
-  <div class="pieChart col-md-4">
-    Stats to go here
+  <div class="col-md-4 foodMetricsList">
+    <div class="row foodTitleRow">
+      <div class="col-md-12">
+        <h4><em>{{analyzedRow.entity.brand}}</em> {{analyzedRow.entity.description}}</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-9 foodMetricName">Calories</div>
+      <div class="col-md-3 foodMetricValue">{{analyzedRow.entity.calories}}</div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 foodMetricName">Protein</div>
+      <div class="col-md-3 foodMetricSubValue">{{rowAnalysis.calsFromProtein}} <span class="unitText">cals</span></div>
+      <div class="col-md-3 foodMetricValue">{{analyzedRow.entity.protein}}<span class="unitText">g</span></div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 foodMetricName">Carbs</div>
+      <div class="col-md-3 foodMetricSubValue">{{rowAnalysis.calsFromCarbs}} <span class="unitText">cals</span></div>
+      <div class="col-md-3 foodMetricValue">{{analyzedRow.entity.carbs}}<span class="unitText">g</span></div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 foodMetricName">Fat</div>
+      <div class="col-md-3 foodMetricSubValue">{{rowAnalysis.calsFromFat}} <span class="unitText">cals</span></div>
+      <div class="col-md-3 foodMetricValue">{{analyzedRow.entity.fat}}<span class="unitText">g</span></div>
+    </div>
+    <div class="row foodMetricRatios">
+      <div class="col-md-12">{{rowAnalysis.percentProtein}} : {{rowAnalysis.percentCarbs}} : {{rowAnalysis.percentFat}}</div>
+    </div>
   </div>
 </div>

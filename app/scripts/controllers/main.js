@@ -45,9 +45,9 @@ angular.module('jmtFoodPlannerApp')
       // Final analysis
       return {
         totalGrams: totalGrams,
-        calsFromProtein: proteinCals,
-        calsFromCarbs: carbsCals,
-        calsFromFat: fatCals,
+        calsFromProtein: Math.round(proteinCals),
+        calsFromCarbs: Math.round(carbsCals),
+        calsFromFat: Math.round(fatCals),
         percentProtein: Math.round((food.protein / totalGrams) * 100),
         percentCarbs: Math.round((food.carbs / totalGrams) * 100),
         percentFat: Math.round((food.fat / totalGrams) * 100),
