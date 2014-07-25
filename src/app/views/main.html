@@ -1,22 +1,21 @@
 <div class="row">
   <div id="allFoodGrid" class="foodGrid" ng-grid="foodGridConfig" bookm></div>
 </div>
-
-<hr />
+<br />
 
 <div class="row">
-  <div class="col-md-4">
-    <span class="glyphicon glyphicon-bookmark"></span>
+  <div class="col-md-4" ng-show="selectedFood">
+    <span class="glyphicon glyphicon-pushpin"></span>
     <nutrition-label food="selectedFood"></nutrition-label>
   </div>
   <div class="col-md-4">
-    <span class="glyphicon glyphicon-adjust"></span>
+    <span class="glyphicon glyphicon-screenshot"></span>
     <nutrition-label food="compareFood"></nutrition-label>
   </div>
 </div>
 
 <div class="row">
-  <div class="col-md-4">
+  <div class="col-md-4" ng-show="selectedFood">
     <nvd3-pie-chart
         data="selectedFood.charts.macronutrientPieData"
         x="xFunctionPie()"

@@ -26,8 +26,8 @@ angular.module('backpackPlannerApp')
       data: 'foodData',
       columnDefs: [
         { field: 'category', displayName: 'Category', width: 0, visible: false },
-        { field: 'description', displayName: 'Description', cellClass: 'descriptionCell', minWidth: 170, width: 'auto' },
-        { field: 'brand', displayName: 'Brand', cellClass: 'brandCell', minWidth: 190, width: 'auto' },
+        { field: 'description', displayName: 'Description', enableCellEdit: true, cellClass: 'descriptionCell', minWidth: 170, width: 'auto' },
+        { field: 'brand', displayName: 'Brand', enableCellEdit: true, cellClass: 'brandCell', minWidth: 190, width: 'auto' },
         { field: 'size', displayName: 'Size', cellClass: 'sizeCell', minWidth: 95, width: 'auto' },
         { field: 'ounces', displayName: 'Weight', cellClass: 'weightCell', cellTemplate: 'views/grid/foodRowOunceCell.html' },
         { field: 'water', displayName: 'H2O', cellClass: 'waterCell', maxWidth: 50, width: 'auto' },
@@ -52,6 +52,8 @@ angular.module('backpackPlannerApp')
       sortInfo: { fields: ['category', 'description'], directions: ['asc' || 'desc'] },
       groups: ['category'],
       groupsCollapsedByDefault: false,
+      enableCellSelection: false,
+      cellEditableCondition: 'true',
       afterSelectionChange: function(row, event) {
         $scope.selectedFoodRow = row;
         $scope.selectedFood = row.entity;
