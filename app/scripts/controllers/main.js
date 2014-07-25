@@ -12,8 +12,8 @@ angular.module('jmtFoodPlannerApp')
     $scope.$log = $log;
     $scope.gridOptions = { data: 'foodData' };
 
-    Items.then( function(parsedCsvData) {
-        $scope.foodData = parsedCsvData;
+    Items.then( function(parsedData) {
+        $scope.foodData = parsedData;
     });
 
   }])

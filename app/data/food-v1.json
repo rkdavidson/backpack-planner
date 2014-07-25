@@ -6,13 +6,13 @@
     "Water":null,
     "Size":"1/4 cup",
     "Ounces":1.41,
-    "Cal/Cup":null,
+    "Cals_per_Cup":null,
     "Fiber":"",
     "Fats":0,
     "Carbs":36,
     "Protein":3,
     "Calories":160,
-    "Cal / Oz":113.5
+    "Cals_per_Oz":113.5
   },
   {
     "Category":"Breakfast",
@@ -21,13 +21,13 @@
     "Water":null,
     "Size":"1/4 cup",
     "Ounces":1,
-    "Cal/Cup":800,
+    "Cals_per_Cup":800,
     "Fiber":"",
     "Fats":21,
     "Carbs":3,
     "Protein":3,
     "Calories":200,
-    "Cal / Oz":200
+    "Cals_per_Oz":200
   },
   {
     "Category":"Breakfast",
@@ -36,13 +36,13 @@
     "Water":null,
     "Size":"1 ounce",
     "Ounces":1,
-    "Cal/Cup":680,
+    "Cals_per_Cup":680,
     "Fiber":"",
     "Fats":15,
     "Carbs":6,
     "Protein":6,
     "Calories":170,
-    "Cal / Oz":170
+    "Cals_per_Oz":170
   },
   {
     "Category":"Breakfast",
@@ -51,13 +51,13 @@
     "Water":null,
     "Size":"1/4 cup",
     "Ounces":1.1,
-    "Cal/Cup":560,
+    "Cals_per_Cup":560,
     "Fiber":"",
     "Fats":7,
     "Carbs":15,
     "Protein":6,
     "Calories":140,
-    "Cal / Oz":127.3
+    "Cals_per_Oz":127.3
   },
   {
     "Category":"Breakfast",
@@ -66,13 +66,13 @@
     "Water":null,
     "Size":"1/4 cup",
     "Ounces":1.08,
-    "Cal/Cup":560,
+    "Cals_per_Cup":560,
     "Fiber":"",
     "Fats":9,
     "Carbs":11,
     "Protein":7,
     "Calories":160,
-    "Cal / Oz":148.1
+    "Cals_per_Oz":148.1
   },
   {
     "Category":"Breakfast",
@@ -81,13 +81,13 @@
     "Water":null,
     "Size":"1 packet",
     "Ounces":1.27,
-    "Cal/Cup":null,
+    "Cals_per_Cup":null,
     "Fiber":"",
     "Fats":0,
     "Carbs":27,
     "Protein":5,
     "Calories":130,
-    "Cal / Oz":102.4
+    "Cals_per_Oz":102.4
   },
   {
     "Category":"Breakfast",
@@ -96,13 +96,13 @@
     "Water":null,
     "Size":"1/4 cup",
     "Ounces":1.41,
-    "Cal/Cup":520,
+    "Cals_per_Cup":520,
     "Fiber":"",
     "Fats":0,
     "Carbs":33,
     "Protein":0,
     "Calories":130,
-    "Cal / Oz":92.2
+    "Cals_per_Oz":92.2
   },
   {
     "Category":"Breakfast",
@@ -111,13 +111,13 @@
     "Water":null,
     "Size":"1 packet",
     "Ounces":1.58,
-    "Cal/Cup":560,
+    "Cals_per_Cup":560,
     "Fiber":"Y",
     "Fats":2,
     "Carbs":34,
     "Protein":4,
     "Calories":160,
-    "Cal / Oz":101.3
+    "Cals_per_Oz":101.3
   },
   {
     "Category":"Breakfast",
@@ -126,13 +126,13 @@
     "Water":null,
     "Size":"1 packet",
     "Ounces":1.51,
-    "Cal/Cup":null,
+    "Cals_per_Cup":null,
     "Fiber":"",
     "Fats":2,
     "Carbs":33,
     "Protein":4,
     "Calories":160,
-    "Cal / Oz":106
+    "Cals_per_Oz":106
   },
   {
     "Category":"Breakfast",
@@ -141,13 +141,13 @@
     "Water":null,
     "Size":"1 packet",
     "Ounces":1.234,
-    "Cal/Cup":null,
+    "Cals_per_Cup":null,
     "Fiber":"",
     "Fats":2,
     "Carbs":27,
     "Protein":3,
     "Calories":130,
-    "Cal / Oz":105.3
+    "Cals_per_Oz":105.3
   },
   {
     "Category":"Breakfast",
@@ -156,13 +156,13 @@
     "Water":null,
     "Size":"1 Tbsp",
     "Ounces":0.32,
-    "Cal/Cup":null,
+    "Cals_per_Cup":null,
     "Fiber":"",
     "Fats":0.75,
     "Carbs":7,
     "Protein":0,
     "Calories":35,
-    "Cal / Oz":109.4
+    "Cals_per_Oz":109.4
   },
   {
     "Category":"Breakfast",
@@ -171,13 +171,13 @@
     "Water":null,
     "Size":"1 bar",
     "Ounces":1.65,
-    "Cal/Cup":760,
+    "Cals_per_Cup":760,
     "Fiber":"",
     "Fats":11,
     "Carbs":23.5,
     "Protein":4.5,
     "Calories":210,
-    "Cal / Oz":127.3
+    "Cals_per_Oz":127.3
   },
   {
     "Category":"Breakfast",
@@ -186,13 +186,13 @@
     "Water":null,
     "Size":"1 bar",
     "Ounces":3,
-    "Cal/Cup":780,
+    "Cals_per_Cup":780,
     "Fiber":"",
     "Fats":18,
     "Carbs":48,
     "Protein":9,
     "Calories":370,
-    "Cal / Oz":123.3
+    "Cals_per_Oz":123.3
   },
   {
     "Category":"Breakfast",
@@ -201,13 +201,13 @@
     "Water":null,
     "Size":"1/2 cup",
     "Ounces":2.04,
-    "Cal/Cup":420,
+    "Cals_per_Cup":420,
     "Fiber":"",
     "Fats":1,
     "Carbs":44,
     "Protein":8,
     "Calories":210,
-    "Cal / Oz":102.9
+    "Cals_per_Oz":102.9
   },
   {
     "Category":"Breakfast",
@@ -216,13 +216,13 @@
     "Water":null,
     "Size":"2 pop tarts",
     "Ounces":3.67,
-    "Cal/Cup":null,
+    "Cals_per_Cup":null,
     "Fiber":"",
     "Fats":10,
     "Carbs":72,
     "Protein":6,
     "Calories":400,
-    "Cal / Oz":109
+    "Cals_per_Oz":109
   },
   {
     "Category":"Breakfast",
@@ -231,13 +231,13 @@
     "Water":null,
     "Size":"2 pop tarts",
     "Ounces":3.668,
-    "Cal/Cup":null,
+    "Cals_per_Cup":null,
     "Fiber":"",
     "Fats":5,
     "Carbs":38,
     "Protein":2,
     "Calories":400,
-    "Cal / Oz":109.1
+    "Cals_per_Oz":109.1
   },
   {
     "Category":"Breakfast",
@@ -246,13 +246,13 @@
     "Water":null,
     "Size":"1 cup",
     "Ounces":1.94,
-    "Cal/Cup":380,
+    "Cals_per_Cup":380,
     "Fiber":"",
     "Fats":1,
     "Carbs":45,
     "Protein":5,
     "Calories":190,
-    "Cal / Oz":97.9
+    "Cals_per_Oz":97.9
   },
   {
     "Category":"Breakfast",
@@ -261,13 +261,13 @@
     "Water":null,
     "Size":"1 cup",
     "Ounces":1.8,
-    "Cal/Cup":null,
+    "Cals_per_Cup":null,
     "Fiber":"",
     "Fats":1,
     "Carbs":35,
     "Protein":13,
     "Calories":160,
-    "Cal / Oz":88.9
+    "Cals_per_Oz":88.9
   },
   {
     "Category":"Breakfast",
@@ -276,13 +276,13 @@
     "Water":null,
     "Size":"1 packet",
     "Ounces":null,
-    "Cal/Cup":null,
+    "Cals_per_Cup":null,
     "Fiber":"",
     "Fats":null,
     "Carbs":null,
     "Protein":null,
     "Calories":null,
-    "Cal / Oz":null
+    "Cals_per_Oz":null
   },
   {
     "Category":"Lunch",
@@ -291,13 +291,13 @@
     "Water":null,
     "Size":"1 tortillas",
     "Ounces":1.375,
-    "Cal/Cup":400,
+    "Cals_per_Cup":400,
     "Fiber":"",
     "Fats":3.5,
     "Carbs":20,
     "Protein":3,
     "Calories":120,
-    "Cal / Oz":87.3
+    "Cals_per_Oz":87.3
   },
   {
     "Category":"Lunch",
@@ -306,13 +306,13 @@
     "Water":null,
     "Size":"1 stick",
     "Ounces":0.7,
-    "Cal/Cup":null,
+    "Cals_per_Cup":null,
     "Fiber":"",
     "Fats":4,
     "Carbs":1,
     "Protein":8,
     "Calories":70,
-    "Cal / Oz":100
+    "Cals_per_Oz":100
   },
   {
     "Category":"Lunch",
@@ -321,13 +321,13 @@
     "Water":null,
     "Size":"1 ounce 6pc",
     "Ounces":1,
-    "Cal/Cup":null,
+    "Cals_per_Cup":null,
     "Fiber":"",
     "Fats":13,
     "Carbs":0,
     "Protein":5,
     "Calories":140,
-    "Cal / Oz":140
+    "Cals_per_Oz":140
   },
   {
     "Category":"Lunch",
@@ -336,13 +336,13 @@
     "Water":null,
     "Size":"1 tbsp",
     "Ounces":1.15,
-    "Cal/Cup":960,
+    "Cals_per_Cup":960,
     "Fiber":"",
     "Fats":16,
     "Carbs":11,
     "Protein":4,
     "Calories":190,
-    "Cal / Oz":165.2
+    "Cals_per_Oz":165.2
   },
   {
     "Category":"Lunch",
@@ -351,13 +351,13 @@
     "Water":null,
     "Size":"1 packet",
     "Ounces":2.6,
-    "Cal/Cup":608,
+    "Cals_per_Cup":608,
     "Fiber":"",
     "Fats":12,
     "Carbs":0,
     "Protein":18,
     "Calories":190,
-    "Cal / Oz":73.1
+    "Cals_per_Oz":73.1
   },
   {
     "Category":"Snacks",
@@ -366,13 +366,13 @@
     "Water":null,
     "Size":"",
     "Ounces":1,
-    "Cal/Cup":null,
+    "Cals_per_Cup":null,
     "Fiber":"",
     "Fats":1.5,
     "Carbs":10,
     "Protein":16,
     "Calories":73,
-    "Cal / Oz":73
+    "Cals_per_Oz":73
   },
   {
     "Category":"Snacks",
@@ -381,13 +381,13 @@
     "Water":null,
     "Size":"4 cookies",
     "Ounces":1.9,
-    "Cal/Cup":null,
+    "Cals_per_Cup":null,
     "Fiber":"",
     "Fats":11,
     "Carbs":37,
     "Protein":4,
     "Calories":260,
-    "Cal / Oz":136.8
+    "Cals_per_Oz":136.8
   },
   {
     "Category":"Snacks",
@@ -396,13 +396,13 @@
     "Water":null,
     "Size":"1 tbsp",
     "Ounces":1.15,
-    "Cal/Cup":960,
+    "Cals_per_Cup":960,
     "Fiber":"",
     "Fats":16,
     "Carbs":11,
     "Protein":4,
     "Calories":190,
-    "Cal / Oz":165.2
+    "Cals_per_Oz":165.2
   },
   {
     "Category":"Snacks",
@@ -411,13 +411,13 @@
     "Water":null,
     "Size":"1 bar",
     "Ounces":1.7,
-    "Cal/Cup":null,
+    "Cals_per_Cup":null,
     "Fiber":"",
     "Fats":16,
     "Carbs":20,
     "Protein":6,
     "Calories":230,
-    "Cal / Oz":135.3
+    "Cals_per_Oz":135.3
   },
   {
     "Category":"Snacks",
@@ -426,13 +426,13 @@
     "Water":null,
     "Size":"1 bar",
     "Ounces":1.7,
-    "Cal/Cup":null,
+    "Cals_per_Cup":null,
     "Fiber":"",
     "Fats":7,
     "Carbs":41,
     "Protein":10,
     "Calories":240,
-    "Cal / Oz":141.2
+    "Cals_per_Oz":141.2
   },
   {
     "Category":"Snacks",
@@ -441,13 +441,13 @@
     "Water":null,
     "Size":"",
     "Ounces":null,
-    "Cal/Cup":null,
+    "Cals_per_Cup":null,
     "Fiber":"",
     "Fats":null,
     "Carbs":null,
     "Protein":null,
     "Calories":null,
-    "Cal / Oz":null
+    "Cals_per_Oz":null
   },
   {
     "Category":"Snacks",
@@ -456,13 +456,13 @@
     "Water":null,
     "Size":"1 ounce",
     "Ounces":1,
-    "Cal/Cup":null,
+    "Cals_per_Cup":null,
     "Fiber":"",
     "Fats":5.7,
     "Carbs":17,
     "Protein":1.9,
     "Calories":132,
-    "Cal / Oz":132
+    "Cals_per_Oz":132
   },
   {
     "Category":"Snacks",
@@ -471,13 +471,13 @@
     "Water":null,
     "Size":"1 ounce",
     "Ounces":1,
-    "Cal/Cup":620,
+    "Cals_per_Cup":620,
     "Fiber":"",
     "Fats":6.2,
     "Carbs":17,
     "Protein":3.7,
     "Calories":128.7,
-    "Cal / Oz":128.7
+    "Cals_per_Oz":128.7
   },
   {
     "Category":"Snacks",
@@ -486,13 +486,13 @@
     "Water":null,
     "Size":"1 bar",
     "Ounces":3.53,
-    "Cal/Cup":null,
+    "Cals_per_Cup":null,
     "Fiber":"",
     "Fats":14,
     "Carbs":41,
     "Protein":32,
     "Calories":410,
-    "Cal / Oz":116.1
+    "Cals_per_Oz":116.1
   },
   {
     "Category":"Snacks",
@@ -501,13 +501,13 @@
     "Water":null,
     "Size":"1 bar",
     "Ounces":3,
-    "Cal/Cup":780,
+    "Cals_per_Cup":780,
     "Fiber":"",
     "Fats":18,
     "Carbs":48,
     "Protein":9,
     "Calories":370,
-    "Cal / Oz":123.3
+    "Cals_per_Oz":123.3
   },
   {
     "Category":"Snacks",
@@ -516,13 +516,13 @@
     "Water":null,
     "Size":"1 bar",
     "Ounces":3.75,
-    "Cal/Cup":null,
+    "Cals_per_Cup":null,
     "Fiber":"Y",
     "Fats":12,
     "Carbs":68,
     "Protein":16,
     "Calories":440,
-    "Cal / Oz":117.3
+    "Cals_per_Oz":117.3
   },
   {
     "Category":"Snacks",
@@ -531,13 +531,13 @@
     "Water":null,
     "Size":"1 bar",
     "Ounces":3.75,
-    "Cal/Cup":null,
+    "Cals_per_Cup":null,
     "Fiber":"Y",
     "Fats":13,
     "Carbs":59,
     "Protein":17,
     "Calories":420,
-    "Cal / Oz":112
+    "Cals_per_Oz":112
   },
   {
     "Category":"Snacks",
@@ -546,13 +546,13 @@
     "Water":null,
     "Size":"1 bar",
     "Ounces":3.75,
-    "Cal/Cup":null,
+    "Cals_per_Cup":null,
     "Fiber":"Y",
     "Fats":13,
     "Carbs":59,
     "Protein":17,
     "Calories":420,
-    "Cal / Oz":112
+    "Cals_per_Oz":112
   },
   {
     "Category":"Snacks",
@@ -561,13 +561,13 @@
     "Water":null,
     "Size":"1 bar",
     "Ounces":1.65,
-    "Cal/Cup":760,
+    "Cals_per_Cup":760,
     "Fiber":"",
     "Fats":11,
     "Carbs":23.5,
     "Protein":4.5,
     "Calories":210,
-    "Cal / Oz":127.3
+    "Cals_per_Oz":127.3
   },
   {
     "Category":"Snacks",
@@ -576,13 +576,13 @@
     "Water":null,
     "Size":"",
     "Ounces":null,
-    "Cal/Cup":null,
+    "Cals_per_Cup":null,
     "Fiber":"",
     "Fats":null,
     "Carbs":null,
     "Protein":null,
     "Calories":null,
-    "Cal / Oz":null
+    "Cals_per_Oz":null
   },
   {
     "Category":"Snacks",
@@ -591,13 +591,13 @@
     "Water":null,
     "Size":"",
     "Ounces":null,
-    "Cal/Cup":null,
+    "Cals_per_Cup":null,
     "Fiber":"",
     "Fats":null,
     "Carbs":null,
     "Protein":null,
     "Calories":null,
-    "Cal / Oz":null
+    "Cals_per_Oz":null
   },
   {
     "Category":"Snacks",
@@ -606,13 +606,13 @@
     "Water":null,
     "Size":"2 tbsp",
     "Ounces":1.3,
-    "Cal/Cup":null,
+    "Cals_per_Cup":null,
     "Fiber":"",
     "Fats":12,
     "Carbs":21,
     "Protein":2,
     "Calories":200,
-    "Cal / Oz":153.8
+    "Cals_per_Oz":153.8
   },
   {
     "Category":"Snacks",
@@ -621,13 +621,13 @@
     "Water":null,
     "Size":"1/4 cup",
     "Ounces":1.41,
-    "Cal/Cup":560,
+    "Cals_per_Cup":560,
     "Fiber":"Y",
     "Fats":0,
     "Carbs":33,
     "Protein":0.5,
     "Calories":140,
-    "Cal / Oz":99.3
+    "Cals_per_Oz":99.3
   },
   {
     "Category":"Snacks",
@@ -636,13 +636,13 @@
     "Water":null,
     "Size":"1/4 cup",
     "Ounces":1.164,
-    "Cal/Cup":800,
+    "Cals_per_Cup":800,
     "Fiber":"",
     "Fats":17,
     "Carbs":8,
     "Protein":7,
     "Calories":200,
-    "Cal / Oz":171.8
+    "Cals_per_Oz":171.8
   },
   {
     "Category":"Snacks",
@@ -651,13 +651,13 @@
     "Water":null,
     "Size":"1 scoop",
     "Ounces":1.09,
-    "Cal/Cup":null,
+    "Cals_per_Cup":null,
     "Fiber":"",
     "Fats":1,
     "Carbs":21,
     "Protein":5,
     "Calories":120,
-    "Cal / Oz":110.1
+    "Cals_per_Oz":110.1
   },
   {
     "Category":"Snacks",
@@ -666,13 +666,13 @@
     "Water":null,
     "Size":"1 scoop",
     "Ounces":1.66,
-    "Cal/Cup":963,
+    "Cals_per_Cup":963,
     "Fiber":"Y",
     "Fats":6,
     "Carbs":15,
     "Protein":22,
     "Calories":200,
-    "Cal / Oz":120.5
+    "Cals_per_Oz":120.5
   },
   {
     "Category":"Snacks",
@@ -681,13 +681,13 @@
     "Water":null,
     "Size":"1 scoop",
     "Ounces":0.18,
-    "Cal/Cup":null,
+    "Cals_per_Cup":null,
     "Fiber":"",
     "Fats":null,
     "Carbs":null,
     "Protein":null,
     "Calories":null,
-    "Cal / Oz":null
+    "Cals_per_Oz":null
   },
   {
     "Category":"Snacks",
@@ -696,13 +696,13 @@
     "Water":null,
     "Size":"2 softgels",
     "Ounces":0.05,
-    "Cal/Cup":20,
+    "Cals_per_Cup":20,
     "Fiber":"",
     "Fats":2,
     "Carbs":0,
     "Protein":0,
     "Calories":20,
-    "Cal / Oz":400
+    "Cals_per_Oz":400
   },
   {
     "Category":"Dinner",
@@ -711,13 +711,13 @@
     "Water":null,
     "Size":"1 pkg",
     "Ounces":4.2,
-    "Cal/Cup":360,
+    "Cals_per_Cup":360,
     "Fiber":"",
     "Fats":4,
     "Carbs":76,
     "Protein":14,
     "Calories":400,
-    "Cal / Oz":95.2
+    "Cals_per_Oz":95.2
   },
   {
     "Category":"Dinner",
@@ -726,13 +726,13 @@
     "Water":null,
     "Size":"1 pouch",
     "Ounces":3.5,
-    "Cal/Cup":null,
+    "Cals_per_Cup":null,
     "Fiber":"",
     "Fats":0,
     "Carbs":81.2,
     "Protein":7.9,
     "Calories":356,
-    "Cal / Oz":101.7
+    "Cals_per_Oz":101.7
   },
   {
     "Category":"Dinner",
@@ -741,13 +741,13 @@
     "Water":null,
     "Size":"1 packet",
     "Ounces":4.1,
-    "Cal/Cup":440,
+    "Cals_per_Cup":440,
     "Fiber":"",
     "Fats":12,
     "Carbs":84,
     "Protein":8,
     "Calories":440,
-    "Cal / Oz":107.3
+    "Cals_per_Oz":107.3
   },
   {
     "Category":"Dinner",
@@ -756,13 +756,13 @@
     "Water":1.25,
     "Size":"2 ounce",
     "Ounces":2,
-    "Cal/Cup":600,
+    "Cals_per_Cup":600,
     "Fiber":"",
     "Fats":2,
     "Carbs":39,
     "Protein":8,
     "Calories":200,
-    "Cal / Oz":100
+    "Cals_per_Oz":100
   },
   {
     "Category":"Dinner",
@@ -771,13 +771,13 @@
     "Water":null,
     "Size":"1/3 cup",
     "Ounces":2.18,
-    "Cal/Cup":660,
+    "Cals_per_Cup":660,
     "Fiber":"Y",
     "Fats":1,
     "Carbs":44,
     "Protein":8,
     "Calories":220,
-    "Cal / Oz":100.9
+    "Cals_per_Oz":100.9
   },
   {
     "Category":"Dinner",
@@ -786,13 +786,13 @@
     "Water":null,
     "Size":"1 package",
     "Ounces":2.05,
-    "Cal/Cup":600,
+    "Cals_per_Cup":600,
     "Fiber":"",
     "Fats":3.5,
     "Carbs":40,
     "Protein":7,
     "Calories":220,
-    "Cal / Oz":107.3
+    "Cals_per_Oz":107.3
   },
   {
     "Category":"Dinner",
@@ -801,13 +801,13 @@
     "Water":null,
     "Size":"1 packet",
     "Ounces":7,
-    "Cal/Cup":null,
+    "Cals_per_Cup":null,
     "Fiber":"",
     "Fats":5,
     "Carbs":0,
     "Protein":49,
     "Calories":245,
-    "Cal / Oz":35
+    "Cals_per_Oz":35
   },
   {
     "Category":"Dinner",
@@ -816,13 +816,13 @@
     "Water":null,
     "Size":"1 packet",
     "Ounces":5,
-    "Cal/Cup":null,
+    "Cals_per_Cup":null,
     "Fiber":"",
     "Fats":8,
     "Carbs":0,
     "Protein":33,
     "Calories":215,
-    "Cal / Oz":43
+    "Cals_per_Oz":43
   },
   {
     "Category":"Dinner",
@@ -831,13 +831,13 @@
     "Water":null,
     "Size":"1 packet",
     "Ounces":1.6,
-    "Cal/Cup":null,
+    "Cals_per_Cup":null,
     "Fiber":"",
     "Fats":0.9,
     "Carbs":27.6,
     "Protein":4.1,
     "Calories":130,
-    "Cal / Oz":81.3
+    "Cals_per_Oz":81.3
   },
   {
     "Category":"Dinner",
@@ -846,13 +846,13 @@
     "Water":null,
     "Size":"1 tbsp",
     "Ounces":0.25,
-    "Cal/Cup":400,
+    "Cals_per_Cup":400,
     "Fiber":"",
     "Fats":1.5,
     "Carbs":0,
     "Protein":3,
     "Calories":25,
-    "Cal / Oz":100
+    "Cals_per_Oz":100
   },
   {
     "Category":"Dinner",
@@ -861,13 +861,13 @@
     "Water":null,
     "Size":"1 ounce",
     "Ounces":1,
-    "Cal/Cup":null,
+    "Cals_per_Cup":null,
     "Fiber":"",
     "Fats":1,
     "Carbs":21,
     "Protein":4,
     "Calories":102,
-    "Cal / Oz":102
+    "Cals_per_Oz":102
   },
   {
     "Category":"Dinner",
@@ -876,13 +876,13 @@
     "Water":null,
     "Size":"1/2 ounce",
     "Ounces":0.5,
-    "Cal/Cup":null,
+    "Cals_per_Cup":null,
     "Fiber":"",
     "Fats":13.9,
     "Carbs":0,
     "Protein":0,
     "Calories":119,
-    "Cal / Oz":238
+    "Cals_per_Oz":238
   },
   {
     "Category":"Dinner",
@@ -891,13 +891,13 @@
     "Water":null,
     "Size":"1 ounce 6pc",
     "Ounces":1,
-    "Cal/Cup":null,
+    "Cals_per_Cup":null,
     "Fiber":"",
     "Fats":13,
     "Carbs":0,
     "Protein":5,
     "Calories":140,
-    "Cal / Oz":140
+    "Cals_per_Oz":140
   },
   {
     "Category":"Dinner",
@@ -906,13 +906,13 @@
     "Water":null,
     "Size":"2.5 servings",
     "Ounces":4.8,
-    "Cal/Cup":250,
+    "Cals_per_Cup":250,
     "Fiber":"",
     "Fats":25,
     "Carbs":75,
     "Protein":25,
     "Calories":625,
-    "Cal / Oz":130.2
+    "Cals_per_Oz":130.2
   },
   {
     "Category":"Dinner",
@@ -921,13 +921,13 @@
     "Water":null,
     "Size":"1 packet",
     "Ounces":2.6,
-    "Cal/Cup":608,
+    "Cals_per_Cup":608,
     "Fiber":"",
     "Fats":12,
     "Carbs":0,
     "Protein":18,
     "Calories":190,
-    "Cal / Oz":73.1
+    "Cals_per_Oz":73.1
   },
   {
     "Category":"Dinner",
@@ -936,13 +936,13 @@
     "Water":null,
     "Size":"16 chips",
     "Ounces":1,
-    "Cal/Cup":null,
+    "Cals_per_Cup":null,
     "Fiber":"",
     "Fats":9,
     "Carbs":15,
     "Protein":1,
     "Calories":150,
-    "Cal / Oz":150
+    "Cals_per_Oz":150
   },
   {
     "Category":"Dinner",
@@ -951,13 +951,13 @@
     "Water":null,
     "Size":"1 block",
     "Ounces":3.03,
-    "Cal/Cup":null,
+    "Cals_per_Cup":null,
     "Fiber":"",
     "Fats":14,
     "Carbs":52,
     "Protein":8,
     "Calories":380,
-    "Cal / Oz":125.4
+    "Cals_per_Oz":125.4
   },
   {
     "Category":"Dinner",
@@ -966,13 +966,13 @@
     "Water":null,
     "Size":"1/4 cup",
     "Ounces":1.08,
-    "Cal/Cup":560,
+    "Cals_per_Cup":560,
     "Fiber":"",
     "Fats":9,
     "Carbs":11,
     "Protein":7,
     "Calories":160,
-    "Cal / Oz":148.1
+    "Cals_per_Oz":148.1
   },
   {
     "Category":"Dinner",
@@ -981,13 +981,13 @@
     "Water":null,
     "Size":"2 Servings",
     "Ounces":5,
-    "Cal/Cup":225,
+    "Cals_per_Cup":225,
     "Fiber":"",
     "Fats":22,
     "Carbs":32,
     "Protein":54,
     "Calories":600,
-    "Cal / Oz":120
+    "Cals_per_Oz":120
   },
   {
     "Category":"Dinner",
@@ -996,12 +996,12 @@
     "Water":null,
     "Size":"2 cups",
     "Ounces":4.2,
-    "Cal/Cup":270,
+    "Cals_per_Cup":270,
     "Fiber":"",
     "Fats":20,
     "Carbs":82,
     "Protein":14,
     "Calories":540,
-    "Cal / Oz":128.6
+    "Cals_per_Oz":128.6
   }
 ]
