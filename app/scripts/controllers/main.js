@@ -10,9 +10,33 @@
 angular.module('jmtFoodPlannerApp')
   .controller('MainCtrl', ['$scope', '$log', 'Foods', function ($scope, $log, Foods) {
     $scope.$log = $log;
-    $scope.gridOptions = {
+    $scope.foodGridOptions = {
       data: 'foodData',
-      rowTemplate: "<div ng-style=\"{ 'cursor': row.cursor }\" ng-repeat=\"col in renderedColumns\" ng-class=\"col.colIndex()\" class=\"ngCell {{col.cellClass}}\" ng-mouseover=\"analyzeRow(row)\"><div class=\"ngVerticalBar\" ng-style=\"{height: rowHeight}\" ng-class=\"{ ngVerticalBarVisible: !$last }\">&nbsp;</div><div ng-cell></div></div>"
+      columnDefs: [
+        { field: 'category', displayName: 'Category', minWidth: 90, width: 'auto'  },
+        { field: 'description', displayName: 'Description', minWidth: 200, width: 'auto' },
+        { field: 'brand', displayName: 'Brand', minWidth: 200, width: 'auto' },
+        { field: 'size', displayName: 'Size', minWidth: 90, width: 'auto' },
+        { field: 'ounces', displayName: 'Weight (oz)', minWidth: 80, width: 'auto' },
+        { field: 'water', displayName: 'H2O' },
+        { field: 'calories', displayName: 'Cals' },
+        { field: 'protein', displayName: 'Protein' },
+        { field: 'carbs', displayName: 'Carbs' },
+        { field: 'fat', displayName: 'Fat' },
+        { field: 'fiber', displayName: 'Fiber', maxWidth: 40, width: 'auto' },
+        { field: 'calsPerCup', displayName: 'Cals/Cup' },
+        { field: 'calsPerOunce', displayName: 'Cals/Oz' }
+      ],
+      rowTemplate: 'views/grid/foodRow.html',
+      rowHeight: 24,
+      showFilter: true,
+      showGroupPanel: true,
+      enableHighlighting: true,
+      enableRowSelection: false,
+      enableColumnHeavyVirt: true,
+      sortInfo: { fields: ['category', 'description'], directions: ['asc' || 'desc'] },
+      groups: ['category'],
+      groupsCollapsedByDefault: false
     };
 
     Foods.then( function(parsedData) {

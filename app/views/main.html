@@ -1,11 +1,8 @@
-
 <div class="row">
-  <div class="gridStyle" ng-grid="gridOptions">
-  </div>
+  <div id="foodGrid" class="foodGridStyle" ng-grid="foodGridOptions"></div>
 </div>
 
-<div class="row animate-show" ng-show="analyzedRow.entity">
-  <h4>Analyzing: <strong><em>{{analyzedRow.entity.brand}}</em> {{analyzedRow.entity.description}}</strong></h4>
+<div class="row" ng-show="analyzedRow.entity">
 
   <nvd3-pie-chart
       data="macronutrientPieData"
