@@ -8,7 +8,7 @@
  * Controller of the backpackPlannerApp
  */
 angular.module('backpackPlannerApp')
-  .controller('MainCtrl', ['$scope', '$log', 'Foods', function ($scope, $log, Foods) {
+  .controller('MainCtrl-old', ['$scope', '$log', 'Foods', function ($scope, $log, Foods) {
     $scope.$log = $log;
 
     $scope.selectedFoodItems = [];

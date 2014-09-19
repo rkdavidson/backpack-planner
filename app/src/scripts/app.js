@@ -8,8 +8,5 @@
  *
  * Main module of the application.
  */
-angular
-  .module('backpackPlannerApp', [
-    'ngGrid',
-    'nvd3ChartDirectives'
-    ]);
+angular.module('backpackPlannerApp', [
+  ]);
