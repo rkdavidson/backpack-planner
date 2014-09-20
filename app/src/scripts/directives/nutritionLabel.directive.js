@@ -1,5 +1,3 @@
-'use strict';
-
 angular.module('backpackPlannerApp')
 .directive('nutritionLabel', function() {
   return {

@@ -1,5 +1,3 @@
-'use strict';
-
 angular.module('backpackPlannerApp')
   .controller('mainController', ['$scope', function($scope) {
 

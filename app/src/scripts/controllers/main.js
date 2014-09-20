@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * @ngdoc function
  * @name backpackPlannerApp.controller:MainCtrl
@@ -20,7 +18,7 @@ angular.module('backpackPlannerApp')
     $scope.mouseoverRow = function(row) {
       $scope.compareFoodRow = row;
       $scope.compareFood = row.entity;
-    }
+    };
 
     $scope.foodGridConfig = {
       data: 'foodData',
@@ -66,7 +64,7 @@ angular.module('backpackPlannerApp')
       for (var i = parsedData.length - 1; i >= 0; i--) {
         parsedData[i].analysis = getMacronutrientAnalysis(parsedData[i]);
         parsedData[i].charts = getFoodChartData(parsedData[i]);
-      };
+      }
 
       $scope.foodData = parsedData;
     });
@@ -92,7 +90,7 @@ angular.module('backpackPlannerApp')
         percentFat: Math.round((food.fat / totalGrams) * 100) || 0,
         totalCals: proteinCals + carbsCals + fatCals || 0
       };
-    };
+    }
 
     function getFoodChartData(food) {
       return {
@@ -113,7 +111,7 @@ angular.module('backpackPlannerApp')
       return function(d, i) {
           return macronutrientColors[i];
         };
-    }
+    };
 
     $scope.xFunctionPie = function() {
         return function(d) {
