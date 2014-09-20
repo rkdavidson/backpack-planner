@@ -1,8 +1,12 @@
+@import 'colors.sass';
+@import 'fonts.sass';
+
 /* Space out content a bit */
 body {
   padding-top: 8px;
   padding-bottom: 20px;
-  background: #DDD;
+  background: $rkd;
+  font-family: $font-sans;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -33,10 +37,7 @@ body {
 }
 
 /* Customize container */
-@media (min-width: 768px) {
-  .container {
-  }
-}
+
 .container-narrow > hr {
   margin: 30px 0;
 }
@@ -115,13 +116,13 @@ body {
 .foodGrid .fatCell.percentCell { border-right: 1px #888 solid; }
 
 .ngViewport {
-    /*height:auto !important;*/
+  /*height:auto !important;*/
 }
 .ngCanvas, .ngViewport, .ngRow, .ngFooterPanel, .ngTopPanel   {
-   width: 100% !important;
+  width: 100% !important;
 }
 .ngRow {
-   border-bottom:none !important;
+  border-bottom:none !important;
 }
 
 .pieChart .title {
@@ -181,17 +182,3 @@ body {
 .nutritionLabel .protein { color: #FF5100;  }
 .nutritionLabel .carbs { color: #AAD600; }
 .nutritionLabel .fat { color: #33AAFF; }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
