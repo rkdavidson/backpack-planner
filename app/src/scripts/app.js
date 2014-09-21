@@ -7,4 +7,6 @@
  * Main module of the application.
  */
 angular.module('backpackPlannerApp', [
+  'restangular',
+  'ngGrid'
 ]);

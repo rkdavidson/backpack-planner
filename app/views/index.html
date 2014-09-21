@@ -4,19 +4,18 @@
     <meta charset="UTF-8">
     <title>backpack-planner (MEAN)</title>
 
+    <link rel="stylesheet" href="dist/styles/vendor.css">
     <link rel="stylesheet" href="dist/styles/main.css">
 
     <script src="dist/scripts/vendor.js"></script>
     <script src="dist/scripts/app.js"></script>
 </head>
-<body ng-app="backpackPlannerApp" ng-controller="mainController">
+<body ng-app="backpackPlannerApp" ng-controller="MainController">
 
-    <h1 ng-bind="rkd"></h1>
-    <p>{{ message }}</p>
+    <hr />
+    <h2>Foods ({{ foods.length }})</h2>
+    <div ng-grid="foodGridOptions" class="foodGrid"></div>
 
-    <div class="foods">
-
-    </div>
 
     <script src="//localhost:35729/livereload.js"></script>
 </body>

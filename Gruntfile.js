@@ -64,17 +64,22 @@ module.exports = function(grunt) {
     // =============================================================================
 
     concat: {
-      vendor: {
+      js: {
         src: [
-          'node_modules/angular/lib/angular.js',
-          'node_modules/angular-resource/lib/angular-resource.js'
+          'bower_components/angular/angular.js',
+          'bower_components/lodash/dist/lodash.min.js',
+          'bower_components/restangular/dist/restangular.min.js',
+          'bower_components/jquery/dist/jquery.min.js',
+          'bower_components/ng-grid/build/ng-grid.min.js'
+
         ],
-        dest: 'app/dist/scripts/vendor.js',
-        options: {
-          banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' +
-                  '<%= grunt.template.today("yyyy-mm-dd") %>' +
-                  '============================================================ */'
-        }
+        dest: '<%= dirs.dist %>/scripts/vendor.js'
+      },
+      css: {
+        src: [
+          'bower_components/ng-grid/ng-grid.min.css'
+        ],
+        dest: '<%= dirs.dist %>/styles/vendor.css'
       }
     },
 
@@ -128,7 +133,8 @@ module.exports = function(grunt) {
     'sass',
     'cssmin',
     'jshint',
-    'concat:vendor',
+    'concat:js',
+    'concat:css',
     'uglify:dev',
     'concurrent'
   ]);
