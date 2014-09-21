@@ -12,6 +12,7 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
 
+    pkg: grunt.file.readJSON('package.json'),
     dirs: dirs,
 
     // JS / Scripts
@@ -23,9 +24,15 @@ module.exports = function(grunt) {
 
     // take all the js files and minify them into app.min.js
     uglify: {
-      build: {
+      dev: {
         files: {
-          '<%= dirs.dist %>/scripts/app.min.js': ['<%= dirs.src %>/scripts/**/*.js', '<%= dirs.src %>/scripts/*.js']
+          '<%= dirs.dist %>/scripts/app.js': ['<%= dirs.src %>/scripts/**/*.js', '<%= dirs.src %>/scripts/*.js']
+        },
+        options: {
+          mangle: false,
+          banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' +
+                  '<%= grunt.template.today("yyyy-mm-dd") %>' +
+                  '============================================================ */'
         }
       }
     },
@@ -55,7 +62,22 @@ module.exports = function(grunt) {
 
     // Server & Devops
     // =============================================================================
-    // watch css and js files and process the above tasks
+
+    concat: {
+      vendor: {
+        src: [
+          'node_modules/angular/lib/angular.js',
+          'node_modules/angular-resource/lib/angular-resource.js'
+        ],
+        dest: 'app/dist/scripts/vendor.js',
+        options: {
+          banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' +
+                  '<%= grunt.template.today("yyyy-mm-dd") %>' +
+                  '============================================================ */'
+        }
+      }
+    },
+
     watch: {
       css: {
         files: ['<%= dirs.src %>/styles/**/*.scss', '<%= dirs.src %>/styles/**/*.sass'],
@@ -73,14 +95,14 @@ module.exports = function(grunt) {
       }
     },
 
-  // watch our node server for changes
+    // watch our node server for changes
     nodemon: {
       dev: {
         script: 'server.js'
       }
     },
 
-  // run watch and nodemon at the same time
+    // run watch and nodemon at the same time
     concurrent: {
       options: {
         logConcurrentOutput: true
@@ -93,6 +115,7 @@ module.exports = function(grunt) {
 
   });
 
+  grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-sass');
@@ -105,7 +128,8 @@ module.exports = function(grunt) {
     'sass',
     'cssmin',
     'jshint',
-    'uglify',
+    'concat:vendor',
+    'uglify:dev',
     'concurrent'
   ]);
 
