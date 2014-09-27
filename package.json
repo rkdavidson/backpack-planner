@@ -16,12 +16,11 @@
   },
   "dependencies": {
     "angular": "^1.2.23",
-    "angular-resource": "^0.1.1",
     "body-parser": "~1.0.0",
     "cookie-parser": "~1.0.1",
     "express": "~4.5.1",
     "mongodb": "*",
-    "mongoose": "*"
+    "mongoose": "3.8.x"
   },
   "devDependencies": {
     "grunt": "~0.4.5",

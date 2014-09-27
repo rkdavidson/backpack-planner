@@ -1,4 +1,5 @@
-// Gruntfile.js
+var _ = require('underscore');
+
 module.exports = function(grunt) {
 
   // Config & Variables
@@ -71,7 +72,6 @@ module.exports = function(grunt) {
           'bower_components/restangular/dist/restangular.min.js',
           'bower_components/jquery/dist/jquery.min.js',
           'bower_components/ng-grid/build/ng-grid.min.js'
-
         ],
         dest: '<%= dirs.dist %>/scripts/vendor.js'
       },
