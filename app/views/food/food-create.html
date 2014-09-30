@@ -1,0 +1,8 @@
+<div class="food-form-create" ng-controller="FoodFormCreateController">
+  <form novalidate class="simple-form">
+      Name: <input type="text" ng-model="newFood.name" /><br />
+      <button type="submit" ng-click="submitFood()">Submit</button>
+  </form>
+  <pre>form = {{newFood | json}}</pre>
+  <p><em>Total Foods:</em> <span ng-bind="foods.length"></span></p>
+</div>

@@ -65,15 +65,16 @@ module.exports = function(grunt) {
     // =============================================================================
 
     concat: {
-      js: {
+      jsmin: {
         src: [
-          'bower_components/angular/angular.js',
+          'bower_components/angular/angular.min.js',
+          'bower_components/angular-ui-router/release/angular-ui-router.min.js',
           'bower_components/lodash/dist/lodash.min.js',
           'bower_components/restangular/dist/restangular.min.js',
           'bower_components/jquery/dist/jquery.min.js',
           'bower_components/ng-grid/build/ng-grid.min.js'
         ],
-        dest: '<%= dirs.dist %>/scripts/vendor.js'
+        dest: '<%= dirs.dist %>/scripts/vendor.min.js'
       },
       css: {
         src: [
@@ -133,7 +134,7 @@ module.exports = function(grunt) {
     'sass',
     'cssmin',
     'jshint',
-    'concat:js',
+    'concat:jsmin',
     'concat:css',
     'uglify:dev',
     'concurrent'

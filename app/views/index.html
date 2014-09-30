@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>backpack-planner (MEAN)</title>
+  <head>
+      <meta charset="UTF-8">
+      <title>backpack-planner (MEAN)</title>
 
-    <link rel="stylesheet" href="dist/styles/vendor.css">
-    <link rel="stylesheet" href="dist/styles/main.css">
+      <link rel="stylesheet" href="dist/styles/vendor.css">
+      <link rel="stylesheet" href="dist/styles/main.css">
 
-    <script src="dist/scripts/vendor.js"></script>
-    <script src="dist/scripts/app.js"></script>
-</head>
-<body ng-app="backpackPlannerApp" ng-controller="MainController">
+      <script src="dist/scripts/vendor.min.js"></script>
+      <script src="dist/scripts/app.js"></script>
+  </head>
+  <body ng-app="backpackPlannerApp" ng-controller="MainController">
 
-    <h2>Foods ({{ foods.length }})</h2>
-    <div ng-grid="foodGridOptions" class="foodGrid"></div>
+    <a ui-sref="food">Food List</a>
+    <a ui-sref="food-create">Create Food</a>
 
+    <div ui-view></div>
 
     <script src="//localhost:35729/livereload.js"></script>
-</body>
+  </body>
 </html>
