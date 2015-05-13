@@ -1,6 +1,6 @@
 {
   "name": "backpackPlanner",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "repository": "http://github.com/rkdavidson/backpack-planner.git",
   "main": "server.js",
   "dependencies": {},
